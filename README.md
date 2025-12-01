@@ -7,7 +7,7 @@ user_wins = 0
 computer_wins = 0
 # Create List with text strings as the elements (Mutable)
 options = ["rock", "paper", "scissors"]
-# Input Game Start Print function
+# Input game start Print function
 while True:
     user_input = input("Type rock/paper/scissors or Q to quit: ").lower()
     if user_input == "q":
